@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+      <script>
+        $("head").load("/html/head.html");
+      </script>
+      <script type="text/javascript" src="/js/index.js"></script>
+    </head>
+  
+  <body>
+    <div id="main-wrapper">
+    
+      <div id="nav-container"></div>
+      <script>
+        $(function() {
+          $("#nav-container").load("html/nav.html"); 
+        });
+      </script>
+
+      <div id="header-container" class="p-5 d-flex flex-column justify-content-center align-items-center text-center">
+        <div id="logo-header">
+          <img src="images/" alt="Logo" height="300">
+        </div>
+        <div class="introduction">
+          
+          <div class="ui massive primary button mt-5">
+            Buy <i class="right arrow icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="index-content p-5">
+        <div class="ui middle aligned stackable grid container" id="content-grid">
+          <div class="row">
+            <div class="twelve wide column">
+              <h1 class="ui large header">This is Ticker Board</h1>
+              <p class="fs-3"> Image here?
+              </p>
+            </div>
+            <div class="four wide column"></div>
+          </div>
+          <div class="row">
+            <div class="twelve wide column">
+              <h1 class="ui large header">Why you should buy one section</h1>
+              <p class="fs-3">buy it</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="ui vertical stripe quote segment" id="quote-segment">
+          <div class="ui equal width stackable internally celled grid">
+            <div class="center aligned row">
+              <div class="column">
+                <h1>"So useful</h1>
+                <p>Bark Schmissel</p>
+              </div>
+              <div class="column">
+                <h1>"Ticker Board is the Best"</h1>
+                <p>Elong Dusk</p>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+      
+
+      <div id="footercontainer">
+      <script>
+        $(function() {
+          $("#footercontainer").load("html/footer.html"); 
+        });
+      </script>
+      </div>
+    </div>
+  </body>
+</html>
