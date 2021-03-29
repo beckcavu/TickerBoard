@@ -13,22 +13,19 @@
     <div id="main-wrapper">
     
       <div id="nav-container"></div>
-      <script>
-        $(function() {
-          $("#nav-container").load("html/nav.html"); 
+      <!--<script>
+       $(function() {
+         $("#nav-container").load("html/nav.html"); 
         });
-      </script>
-
+       </script>
+      -->
       <div id="header-container" class="p-5 d-flex flex-column justify-content-center align-items-center text-center">
         <div id="logo-header">
           <img src="#" alt="Logo" height="300">
         </div>
-        <div class="introduction">
-          
-          <div class="ui massive primary button mt-5">
-            Buy <i class="right arrow icon"></i>
-          </div>
-        </div>
+          <button class="ui massive primary button mt-5" id="IL" onclick="goToIL()">
+            Add Your Name to the Interest List <i class="right arrow icon"></i>
+          </button>
       </div>
 
       <div class="index-content p-5">
@@ -36,15 +33,15 @@
           <div class="row">
             <div class="twelve wide column">
               <h1 class="ui large header">This is Ticker Board</h1>
-              <p class="fs-3"> Image here?
+              <p class="fs-3"> [model image]
               </p>
             </div>
             <div class="four wide column"></div>
           </div>
           <div class="row">
             <div class="twelve wide column">
-              <h1 class="ui large header">Why you should buy one section</h1>
-              <p class="fs-3">buy it</p>
+              <h1 class="ui large header">Interested?</h1>
+              <p class="fs-3">You may add your name to the interest list (click that big button <i class="up arrow icon"></i>), even let us know what you would like to see out of your Ticker! No Commitment!</p>
             </div>
           </div>
         </div>
@@ -53,12 +50,12 @@
           <div class="ui equal width stackable internally celled grid">
             <div class="center aligned row">
               <div class="column">
-                <h1>"So useful</h1>
-                <p>Bark Schmissel</p>
+                <h1>"Fun, useful, and aesthetic"</h1>
+                <p>Oscar Beck</p>
               </div>
               <div class="column">
-                <h1>"Ticker Board is the Best"</h1>
-                <p>Elong Dusk</p>
+                <h1>"I can customize my Ticker Board to what stocks I want to watch, I love it"</h1>
+                <p>Christian Gaines</p>
               </div>
             </div>
   
@@ -68,13 +65,14 @@
       </div>
       
 
-      <div id="footercontainer">
+     <!-- <div id="footercontainer">
       <script>
         $(function() {
           $("#footercontainer").load("html/footer.html"); 
         });
       </script>
       </div>
+      -->
     </div>
   </body>
 </html>
