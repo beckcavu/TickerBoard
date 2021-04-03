@@ -85,3 +85,12 @@ html[data-theme="dark"] {
     padding: 5px; 
     margin-left: 8px; 
 } 
+
+
+
+#waw {
+    background-image: url("/images/Block_M-Hex.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
