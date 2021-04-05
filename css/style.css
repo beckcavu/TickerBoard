@@ -21,15 +21,6 @@ body {
     color: var(--text);
 }
 
-html[data-theme="dark"] {
-    --bg: #121212;
-    --bg-secondary: lightgrey;
-    --headings: #0c0c0c;
-    --text: white;
-    --text-secondary: 0c0c0c;
-    --links: pink; 
-}
-
 @media (prefers-color-scheme: dark) {
 
 }
@@ -58,33 +49,6 @@ html[data-theme="dark"] {
     font-weight: bold;
     color: var(--text);
 }
-
-.navbar {
-    background-color: var(--bg);
-    color: var(--text);
-}
-
-.navbar-nav .nav-link {
-    color: var(--text) !important;
-}
-
-#dark-mode-button {
-    float: right;
-}
-
-#quote-segment {
-    margin-top: 5%;
-}
-
-.changeButtonHTML { 
-    cursor: pointer; 
-    border: 1px solid #555; 
-    border-radius: 40%; 
-    width: 20px; 
-    text-align: center; 
-    padding: 5px; 
-    margin-left: 8px; 
-} 
 
 
 
