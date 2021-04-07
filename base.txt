@@ -1,0 +1,28 @@
+ <div id="header-container" class="p-5 d-flex flex-column justify-content-center align-items-center text-center">
+        <div id="logo-header">
+          <img src="/images/tickerboard_logo.jpeg" alt="Logo" height="350">
+        </div>
+      </div>
+
+      <div class="index-content p-5">
+
+
+        <div class="ui middle aligned stackable grid container" id="content-grid">
+          <div class="row">
+            <div class="sixteen wide column">
+              <h1 class="ui large header">This is Ticker Board</h1>
+              <p> <img src="/images/TB_handheld_gif.gif" alt="gif of TB" height="400"><br>
+              A tabletop, stock ticker display that shows you the changes in the market second by second for stocks that YOU CHOOSE</p>
+              <p>It is a fun and useful tool that you can use to avoid straying away from your work to check the market</p>
+            </div>
+          </div>
+
+          <div class="row" style="margin: 5%;"></div>
+
+                 
+
+          <div class="row" style="margin: 5%;"></div>
+
+          
+        </div>
+  

@@ -2,92 +2,58 @@
 
 <html lang="en">
     <head>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
-      <script>
-        $("head").load("/html/head.html");
-      </script>
-      <script type="text/javascript" src="/js/index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="/css/style.css"> 
     </head>
   
   <body>
     <div id="main-wrapper">
-    
-      <div id="nav-container"></div>
-      <!--<script>
-       $(function() {
-         $("#nav-container").load("html/nav.html"); 
-        });
-       </script>
-      -->
-      <div id="header-container" class="p-5 d-flex flex-column justify-content-center align-items-center text-center">
-        <div id="logo-header">
-          <img src="/images/tickerboard_logo.jpeg" alt="Logo" height="350">
+      <div id="header-container">
+          <img class="ui centered image" src="/images/tickerboard_logo.jpeg" alt="Logo" height="350">
+      </div>
+      <div class="ui grid">
+        <div class="row">
+          <div class="eight wide column">
+            <img class="ui centered image" src="/images/Block_M-Hex.png" height="200" alt="image 1">
+          </div>
+          <div class="eight wide column">
+            <img class="ui centered image" src="/images/model_diagram.jpeg" height="200" alt="image 2">
+          </div>
+        </div>
+        <div class="row" style="text-align: center;">
+          <div class="sixteen wide column">
+            <p class="ui segment" style="font-size: 200%;">A tabletop, stock ticker display that shows changes in the market second by second, personalized to the companies that you care about! TickerBoard is a fun and useful tool that comes in a variety of sizes.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="sixteen wide column">
+            <img class="ui centered image" src="/images/TB_handheld_gif.gif" alt="gif of TickerBord">
+          </div>
+        </div>
+
+        <div class="row" style="text-align: center;">
+          <div class="sixteen wide column">
+          <h1 class="ui header" style="font-size: 300%;">Who Are We?</h1>
+          <p class="ui segment" style="font-size: 200%;" id="waw">TickerBoard is a group of University of Michigan students. We want to build a product that many people can enjoy. TickerBoard is simply a class project
+            that we hope has potential to live past the course.
+          </p>
+        </div>
+      </div>  
+
+      <div class="row" style="text-align: center;">
+        <div class="sixteen wide column" style="height: 800%;">
+          <h1 class="ui header" style="font-size: 300%;">Interested? -- No Commitment!</h1>
+          <iframe height="100%" width="100%" src="https://docs.google.com/forms/d/e/1FAIpQLSeHHlJqfNv7AkHbeaIrZwbhMBZZzfxur6acwmhYQsYKSph1QA/viewform"></iframe>
         </div>
       </div>
 
-      <div class="index-content p-5">
+
+    </div>
 
 
-        <div class="ui middle aligned stackable grid container" id="content-grid">
-          <div class="row">
-            <div class="sixteen wide column">
-              <h1 class="ui large header">This is Ticker Board</h1>
-              <p> <img src="/images/TB_handheld_gif.gif" alt="gif of TB" height="400"><br>
-              A tabletop, stock ticker display that shows you the changes in the market second by second for stocks that YOU CHOOSE</p>
-              <p>It is a fun and useful tool that you can use to avoid straying away from your work to check the market</p>
-            </div>
-          </div>
-
-          <div class="row" style="margin: 5%;"></div>
-
-          <div class="row">
-              <div class="sixteen wide column" id="waw">
-              <h1 class="ui large header">Who Are We?</h1>
-              <p>TickerBoard is a group of University of Michigan students. We want to build a product that many people can enjoy. TickerBoard is simply a class project
-                that we hope has potential to live past the course. <a class="ui fluid medium blue button" href="mailto:beckcavu@umich.edu" style="width: 10%; justify-content: center;">Contact Us</a>
-              </p>
-            </div>
-          </div>         
-
-          <div class="row" style="margin: 5%;"></div>
-
-          <div class="row">
-            <div class="twelve wide column" style="height: 1000px;">
-              <h1 class="ui large header">Interested? -- No Commitment!</h1>
-              <iframe height="100%" width="100%" src="https://docs.google.com/forms/d/e/1FAIpQLSeHHlJqfNv7AkHbeaIrZwbhMBZZzfxur6acwmhYQsYKSph1QA/viewform"></iframe>
-            </div>
-          </div>
-        </div>
-  
-        <div class="row" style="margin: 5%;"></div>
-
-        <div class="ui vertical stripe quote segment" id="quote-segment">
-          <div class="ui equal width stackable internally celled grid">
-            <div class="center aligned row">
-              <div class="column">
-                <h1>"Fun, useful, and aesthetic"</h1>
-                <p>Oscar Beck</p>
-              </div>
-              <div class="column">
-                <h1>"I can customize my Ticker Board to what stocks I want to watch, I love it"</h1>
-                <p>Christian Gaines</p>
-              </div>
-            </div>
-  
-          </div>
-  
-        </div>
-      </div>
-      
-
-     <!-- <div id="footercontainer">
-      <script>
-        $(function() {
-          $("#footercontainer").load("html/footer.html"); 
-        });
-      </script>
-      </div>
-      -->
+      <!-- main wrapper-->
     </div>
   </body>
 </html>
